@@ -18,6 +18,7 @@ nlu:
       - lentejas
       - espinaca
       - leche
+      - pan
       - queso
 
   - lookup: dieta

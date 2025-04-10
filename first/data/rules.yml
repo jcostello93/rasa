@@ -1,11 +1,6 @@
 version: "3.1"
 
 rules:
-  - rule: Recomendar un plato
-    steps:
-    - intent: platos
-    - action: utter_plato_recomendado
-
   - rule: "Saludo"
     steps:
       - intent: saludar

@@ -22,9 +22,12 @@ entities:
   - sabor
   - num_platos
 
+actions:
+  - action_recomendar_plato
+
 slots:
   ingrediente:
-    type: text
+    type: list
     influence_conversation: false
     mappings:
       - type: from_entity
@@ -52,8 +55,21 @@ slots:
         entity: num_platos
 
 responses:
-  utter_plato_recomendado:
-    - text: "Si tienes {ingrediente}, recomiendo que hagas un bocadillo."
+  utter_bocadillo:
+    - text: "Puedes preparar un bocadillo."
+
+  utter_ensalada_capresa:
+    - text: "Puedes preparar una ensalada capresa."
+
+  utter_tostada:
+    - text: "Puedes preparar una tostada."
+
+  utter_montadito:
+    - text: "Puedes preparar un montadito."
+
+  utter_sin_ingredientes:
+    - text: "No tienes suficientes ingredientes, te recomiendo ir a un restaurante."
+
 
   utter_valor_nutricional:
     - text: "{platos}... qué rico. Ese plato está lleno de nutrientes."
