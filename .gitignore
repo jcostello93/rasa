@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code settings
+.vscode/
+
+# Rasa files
+.rasa/
+.rasa/cache/
+.rasa/tmp/
+.rasa/nlu/
+.rasa/core/
+
+# Model files
+models/
+*.tar.gz
+
+# Logs
+*.log
+
+# Rasa test results
+results/
+
+# Data files
+*.db
+*.sqlite
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python environment files
+Pipfile.lock
+poetry.lock
+
+# Optional: custom exclusion of trained files or temporary datasets
+data/generated/
