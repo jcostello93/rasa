@@ -1,0 +1,68 @@
+{
+  "type": "IntentMaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "afirmar": 0,
+        "back": 1,
+        "bot_challenge": 2,
+        "cantidad_platos": 3,
+        "despedir": 4,
+        "dieta": 5,
+        "ingredientes": 6,
+        "listacompras": 7,
+        "negar": 8,
+        "nlu_fallback": 9,
+        "out_of_scope": 10,
+        "platos": 11,
+        "receta": 12,
+        "restart": 13,
+        "restricciones": 14,
+        "sabores": 15,
+        "saludar": 16,
+        "session_start": 17,
+        "valornutricional": 18
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_cantidad_platos": 13,
+        "utter_cheer_up": 14,
+        "utter_despedir": 15,
+        "utter_did_that_help": 16,
+        "utter_happy": 17,
+        "utter_iamabot": 18,
+        "utter_ingredientes": 19,
+        "utter_listacompras": 20,
+        "utter_plato_recomendado": 21,
+        "utter_restricciones": 22,
+        "utter_sabores": 23,
+        "utter_saludo": 24,
+        "utter_valor_nutricional": 25
+      },
+      "entities": {
+        "ingrediente": 0,
+        "num_platos": 1,
+        "platos": 2,
+        "sabor": 3
+      },
+      "slots": {},
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

@@ -1,13 +1,52 @@
 version: "3.1"
 
 rules:
+  - rule: Recomendar un plato
+    steps:
+    - intent: platos
+    - action: utter_plato_recomendado
 
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - rule: "Saludo"
+    steps:
+      - intent: saludar
+      - action: utter_saludo
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - rule: "Despedida"
+    steps:
+      - intent: despedir
+      - action: utter_despedir
+
+  - rule: "Preguntar por ingredientes"
+    steps:
+      - intent: ingredientes
+      - action: utter_ingredientes
+
+  - rule: "Preguntar por valor nutricional"
+    steps:
+      - intent: valornutricional
+      - action: utter_valor_nutricional
+
+  - rule: "Preguntar por restricciones"
+    steps:
+      - intent: restricciones
+      - action: utter_restricciones
+
+  - rule: "Preguntar por sabores"
+    steps:
+      - intent: sabores
+      - action: utter_sabores
+
+  - rule: "Lista de compras"
+    steps:
+      - intent: listacompras
+      - action: utter_listacompras
+
+  - rule: "Cantidad de platos"
+    steps:
+      - intent: num_platos
+      - action: utter_cantidad_platos
+
+  - rule: "Soy chef"
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "num_platos",
+    "pattern": "(?i)me\\s+gustaría\\s+(?:\\d+|un|una|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez)\\s+platos?"
+  },
+  {
+    "name": "num_platos",
+    "pattern": "(?i)necesito\\s+(?:\\d+|un|una|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez)\\s+platos?"
+  },
+  {
+    "name": "num_platos",
+    "pattern": "(?i)quiero\\s+(?:\\d+|un|una|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez)\\s+platos?"
+  },
+  {
+    "name": "num_platos",
+    "pattern": "(?i)quiero\\s+(?:\\d+|un|una|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez)\\s+platos?"
+  },
+  {
+    "name": "ingrediente",
+    "pattern": "(\\btomate\\b|\\barroz\\b|\\bpollo\\b|\\bcebolla\\b|\\bajo\\b|\\bzanahoria\\b|\\bpapa\\b|\\bpimiento\\b|\\bsal\\b|\\baceite\\ de\\ oliva\\b|\\bcarne\\ molida\\b|\\bhuevo\\b|\\blentejas\\b|\\bespinaca\\b|\\bleche\\b|\\bqueso\\b)"
+  },
+  {
+    "name": "dieta",
+    "pattern": "(\\bketo\\b|\\bbaja\\ en\\ carbohidratos\\b|\\bbaja\\ en\\ grasas\\b|\\balta\\ en\\ proteínas\\b|\\bvegana\\b|\\bvegetariana\\b|\\bpaleo\\b|\\bsin\\ gluten\\b|\\bmediterránea\\b|\\bbaja\\ en\\ azúcar\\b)"
+  },
+  {
+    "name": "platos",
+    "pattern": "(\\bpasta\\ al\\ pesto\\b|\\bpaella\\b|\\bpollo\\ empanado\\b|\\bpescado\\ al\\ horno\\b|\\bverduras\\ a\\ la\\ plancha\\b|\\bensalada\\ césar\\b|\\bcarne\\ en\\ salsa\\ de\\ zanahoria\\b|\\bPescado\\ a\\ la\\ plancha\\b|\\bpotaje\\ de\\ lentejas\\b)"
+  },
+  {
+    "name": "sabor",
+    "pattern": "(\\bdulce\\b|\\bsalado\\b|\\bácido\\b|\\bamargo\\b|\\bpicante\\b|\\bumami\\b|\\bahumado\\b|\\bfresco\\b|\\bsuave\\b|\\bintenso\\b)"
+  }
+]

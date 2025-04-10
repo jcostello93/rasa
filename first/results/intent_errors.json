@@ -1,0 +1,18 @@
+[
+  {
+    "text": "No me gusta el pescado",
+    "intent": "restricciones",
+    "intent_prediction": {
+      "name": "preguntar_restricciones",
+      "confidence": 0.6142733693122864
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "saludar",
+    "intent_prediction": {
+      "name": "despedir",
+      "confidence": 0.4890918433666229
+    }
+  }
+]
